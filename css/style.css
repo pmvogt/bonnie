@@ -1,0 +1,260 @@
+/* Global classes */
+
+body {
+    background-color: #EBEBEB;
+    font-family: 'Open Sans', Arial, Helvetica;
+}
+
+p {
+	font-weight: lighter;
+	font-size: 12px;
+}
+
+
+.btn-primary {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 16px;
+  background: #FF879A;
+  padding: 10px 20px 10px 20px;
+  margin: 5px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #FFBFC9;
+  text-decoration: underline;
+
+}
+
+.btn-secondary {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 16px;
+  background: #6CBEF9;
+  padding: 10px 20px 10px 20px;
+  margin: 5px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: #AED9F8;
+  text-decoration: underline;
+}
+
+
+/* Navigation */
+
+.sidebar {
+	z-index: 1000;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 90px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #1f253d;
+    border: solid 0.5px #ffffff;
+    display: block;
+    text-align: center;
+}
+
+.logo {
+    width: 75%;
+    height: 38px;
+    object-fit: contain;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    text-align: center;
+}
+
+/* Main Navigation Items */
+
+.sidebar-nav {
+    position: absolute;
+    padding-top: 30px;
+    margin-left: -10px;
+    object-fit: contain;
+    opacity: 0.75;
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+
+.sidebar-nav li {
+    padding-bottom: 20px;
+}
+
+.sidebar-nav li a:hover {
+    opacity: 0.25;
+}
+
+.active { 
+    fill: yellow;
+}
+
+/* Secondary Menu (Settings, Help, User Permissions) */
+
+.secondary-menu {
+    padding-top: 360px;
+}
+
+.secondary-menu li {
+    padding-bottom: 15px;
+    object-fit: contain;
+}
+
+/* Left Content Area, focal point of the user experience */
+
+#left {
+	position: fixed;
+	height: 100vh;
+    width: 50%;
+    padding: 15px;
+    top: 0;
+    bottom: 0;
+    margin-left: 80px;
+   	box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Name, Address and Phone Number of the user's business */
+
+.title {
+	font-weight: normal;
+	line-height: 10px;
+}
+
+.marker {
+	display: inline-block;
+	padding-right: 10px;
+	width: 25px;
+}
+
+.address {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 100;
+	line-height: 10px;
+}
+
+/* Search control */ 
+
+.user-search {
+	font-family: 'OpenSans';
+	font-size: 14px;
+	padding-left: 5px;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	text-align: left;
+	color: #e84c60;
+	margin-top: 24px;
+	width: 538px;
+	height: 40px;
+	border-radius: 3px;
+	border: solid .5px #1f253d;
+}
+
+/* Targets psuedo element to make the placeholder text on this one input the primary pink color. Weeee! */ 
+
+input[type="search-text"].user-search::-webkit-input-placeholder {
+  color: #e84c60;
+
+}input[type="search-text"].user-search::-moz-input-placeholder {
+  color: #e84c60;
+
+}input[type="search-text"].user-search::-ms-input-placeholder {
+  color: #e84c60;
+
+}input[type="search-text"].user-search::-moz-placeholder {
+  color: #e84c60;
+}
+
+/* Search Results */
+
+.user-table {
+	width: 100%;
+	height: 50%;
+	padding-top: 36px;
+	text-align: left;
+}
+
+.user-row {
+	padding-bottom: 5px;
+}
+
+.avatar {
+	width: 50%;
+}
+
+/* Right Content Area, easy to locate important controls and secondary information */
+
+#right {
+	position: fixed;
+	height: 100vh;
+    width: 50%;
+    padding: 15px;
+    top: 0;
+    bottom: 0;
+    margin-left: 60%;
+}
+
+.weather {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	vertical-align: middle;
+}
+
+.weather-detail {
+	position: fixed;
+	display: inline-block;
+	width: 50vh;
+	vertical-align: middle;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+.glyph {
+	padding-right: 10px;
+	width: 10%;
+}
+
+.card {
+	margin-top: 20px;
+	width: 400px;
+	height: 90px;
+	background-color: #ffffff;
+	box-shadow: 0 16px 24px 0 rgba(81, 96, 115, 0.14);
+}
+
+/* Special classes for card text */
+
+.primary {
+	padding: 5px 0px 0px 10px;
+	color: #FF879A;
+}
+
+.description {
+	padding-left: 10px;
+}
+
+/* This table kinda fell apart on me */
+
+.table-head {
+	padding-bottom: 10px;
+}
+
+.feed-table {
+	padding-top: 36px;
+	text-align: left;
+}

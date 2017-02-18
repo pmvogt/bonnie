@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Bonnie - Dog Daycare Management Dashboard</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="sidebar">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+        </div>
+        <div class="wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="#" class="active"><img src="icons/129.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/$.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/66.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/45.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/31.svg"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="secondary-menu">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="#"><img src="icons/123.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/130.svg"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="icons/58.svg"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="left">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="wrapper">
+                    <h1 class="title">The Downtown Dog</h1>
+                    <div class="marker">
+                        <img src="icons/map.svg">
+                    </div>
+                    <div class="address">
+                        <p>730 W Pullman Rd #3</p>
+                        <p>Moscow, ID 83843</p>
+                        <p>509 338-5559</p>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="search-text" class="user-search form-control" placeholder="Search by Dog or Customer's Name">
+            </div>
+            <table class="user-table">
+                <tbody>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar1.png"></th>
+                        <td><strong>Larry</strong></td>
+                        <td>Owner: Michele Moss, Derek Moss</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar2.png"></th>
+                        <td><strong>Norman</strong></td>
+                        <td>Owner: Kaycee</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar3.png"></th>
+                        <td><strong>Biscuit</strong></td>
+                        <td>Owner: Daria Morgandorfer, Jane Morgandorfer</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar4.png"></th>
+                        <td><strong>Moose</strong></td>
+                        <td>Owner: William Bates</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar5.png"></th>
+                        <td><strong>Korra</strong></td>
+                        <td>Owner: Haley Keefe, Jason Leffler</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar6.png"></th>
+                        <td><strong>Motley</strong></td>
+                        <td>Owner: Mike Ruotolo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar7.png"></th>
+                        <td><strong>Old Country Pig</strong></td>
+                        <td>Owner: Courtney Vogt, Peter Vogt</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar8.png"></th>
+                        <td><strong>Blitz</strong></td>
+                        <td>Owner: Darrell Patterson</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="user-row"><img class="avatar" src="img/avatar9.png"></th>
+                        <td><strong>Pepper</strong></td>
+                        <td>Owner: Melissa Langerfeldt</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="right">
+        <div class="buttons">
+            <button type="button" class="btn btn-primary"><span class="icon"></span>Check In</button>
+            <button type="button" class="btn-secondary">Calendar</button>
+        </div>
+        <div class="weather">
+            <img class="glyph" src="img/weather.svg">
+            <h1 class="weather-detail"><strong>80°</strong></h1>
+            <p style="width: 60vh;">Today will be a high of 80, and there is a 0% chance of precipitation. Sounds like a good day for outdoor play.</p>
+        </div>
+        <div class="card">
+            <h1 class="primary">15</h1>
+            <p class="description">Dogs in Daycare right now</p>
+        </div>
+        <div class="card">
+            <h1 class="primary">5</h1>
+            <p class="description">Dogs in Daycare right now</p>
+        </div>
+		<table class="feed-table">
+		  <thead>
+		    <tr>
+		      <th class="table-head">Today's Feed</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row"><img class="avatar" src="img/avatar2.png"></th>
+		      <td><strong>Larry</strong> needs insulin before 5:00 PM.</td>
+		    </tr>
+		    <tr>
+		      <th scope="row"><img class="avatar" src="img/avatar2.png"></th>
+		      <td><strong>Burly</strong> got in a fight at 11:00 PM.</td>
+		    </tr>
+		  </tbody>
+		</table>
+    </section>
+</body>
+
+</html>
